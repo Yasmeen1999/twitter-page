@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
 }
 .text {
   color: white;
@@ -112,6 +113,9 @@ p {
   .sign-up {
     width: 248px;
   }
+  .buttons {
+    margin-left: 35px;
+  }
 }
 @media (min-width: 768px) {
   .heading {
@@ -146,7 +150,6 @@ p {
   .buttons {
     display: flex;
     flex-direction: column;
-    margin-left: -30%;
   }
   .section-one {
     width: 50vw;
@@ -180,6 +183,5 @@ p {
   .buttons {
     display: flex;
     flex-direction: column;
-    margin-left: -45%;
   }
 }
